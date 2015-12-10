@@ -192,7 +192,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} --c99")
 # involved in propagating variables to only the parent scope.
 add_sources(
     main.c
-    dfu_dual_bank.c
+    dfu_single_bank.c
     bootloader.c
     bootloader_settings_arm.c
     dfu_transport_ble.c
