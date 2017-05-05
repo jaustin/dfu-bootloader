@@ -1,0 +1,73 @@
+jonaus01@machine:~/microbit/bootloader/dfu-bootloader$ ./gitversions.sh 
+# Base repo (dfu-bootloader) version:
+
+git rev-parse HEAD:
+0fdb52becb7978dd476dd4a6d145e0b04d5b36f1
+
+git status:
+On branch gitversions
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	BLE_API/
+	Build/
+	CMakeCache.txt
+	CMakeFiles/
+	mbed/
+	nRF51822/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git remote -v:
+jonny	git@github.com:jaustin/dfu-bootloader.git (fetch)
+jonny	git@github.com:jaustin/dfu-bootloader.git (push)
+jp	git@github.com:jpbrucker/dfu-bootloader.git (fetch)
+jp	git@github.com:jpbrucker/dfu-bootloader.git (push)
+origin	https://github.com/ARMmbed/dfu-bootloader (fetch)
+origin	https://github.com/ARMmbed/dfu-bootloader (push)
+
+
+# mbed version
+
+git rev-parse HEAD:
+bee1c953f03a0e4f6a4c397e97409076516614a4
+
+git status:
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+
+git remote -v:
+origin	git@github.com:mbedmicro/mbed.git (fetch)
+origin	git@github.com:mbedmicro/mbed.git (push)
+
+# nrf51822 version
+
+git rev-parse HEAD:
+eab6631cb67076e62b62f4c4e075f8bcd33fb812
+
+git status:
+On branch s110_compat
+Your branch is up-to-date with 'jp/s110_compat'.
+
+nothing to commit, working directory clean
+
+git remote -v:
+jp	git@github.com:jpbrucker/nRF51822.git (fetch)
+jp	git@github.com:jpbrucker/nRF51822.git (push)
+origin	https://github.com/mbedmicro/nRF51822.git (fetch)
+origin	https://github.com/mbedmicro/nRF51822.git (push)
+
+# BLE version
+
+git rev-parse HEAD:
+8694f1ade25d7f2146080825a85c24b5a4e73fe2
+
+git status:
+On branch single-bank-build
+nothing to commit, working directory clean
+
+git remote -v:
+origin	https://github.com/mbedmicro/BLE_API.git (fetch)
+origin	https://github.com/mbedmicro/BLE_API.git (push)
